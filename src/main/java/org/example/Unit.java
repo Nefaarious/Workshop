@@ -2,13 +2,17 @@ package org.example;
 
 public class
 Unit {
-    int name;
-    int uuid;
-    public void getId(){
-
+    String name;
+    int id;
+    public int getId(){
+      return id;
     }
-    public void getName(){
-
+    public Unit(String name,int id){
+        this.id = id;
+        this.name = name;
+    }
+    public String getName(){
+        return name;
     }
    @Override
     public String toString(){
