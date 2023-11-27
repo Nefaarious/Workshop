@@ -3,7 +3,7 @@ package org.example;
 public class
 Unit {
     int name;
-    int id;
+    int uuid;
     public void getId(){
 
     }
